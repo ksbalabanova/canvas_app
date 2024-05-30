@@ -1,0 +1,39 @@
+
+.App{
+  min-height: 800px;
+}
+.button-bar{
+  text-align: center;
+  gap: 100px;
+}
+.List {
+  display: flex;
+  text-align: center;
+  width: 33vw;
+}
+
+.row {
+  display: flex;
+  box-sizing: border-box; /* чтобы учитывать padding и border в расчетах ширины */
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.row > div {
+  flex: 1;
+}
+
+.SummaryComponent {
+  width: 33vw;
+  max-width: 460px;
+}
+
+.button-bar-modal{
+  margin-top: 40px;
+}
+.button-bar{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
